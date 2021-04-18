@@ -1,0 +1,28 @@
+key: thucst
+title: Tsinghua CST Info 9 OAuth
+description: OAuth for Department of Computer Science and Technology, Info 9 system
+author: zx1239856
+logo: https://upload.wikimedia.org/wikipedia/commons/e/ec/Tsinghua_University_Logo.svg
+color: green darken-3
+website: https://stu.cs.tsinghua.edu.cn
+isAvailable: true
+useForm: false
+scopes:
+  - user
+props:
+  clientId:
+    type: String
+    title: Client ID
+    hint: Application Client ID
+    order: 1
+  clientSecret:
+    type: String
+    title: Client Secret
+    hint: Application Client Secret
+    order: 2
+  siteURL:
+    type: String
+    title: Auth Server URL
+    hint: Base URL for Auth Server (e.g. https://stu.cs.tsinghua.edu.cn)
+    order: 3
+  
